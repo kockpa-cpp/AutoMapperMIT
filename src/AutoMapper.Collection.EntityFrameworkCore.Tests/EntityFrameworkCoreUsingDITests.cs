@@ -2,6 +2,7 @@
 using AutoMapper.EquivalencyExpression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace AutoMapper.Collection.EntityFrameworkCore.Tests
 {
@@ -26,7 +27,7 @@ namespace AutoMapper.Collection.EntityFrameworkCore.Tests
                 x.AddCollectionMappers();
                 x.UseEntityFrameworkCoreModel<DB>(_serviceProvider);
                 x.CreateMap<ThingDto, Thing>().ReverseMap();
-            }));
+            }, new NullLoggerFactory()));
 
             _serviceScope = _serviceProvider.GetRequiredService<IServiceScopeFactory>().CreateScope();
             db = _serviceScope.ServiceProvider.GetRequiredService<DB>();

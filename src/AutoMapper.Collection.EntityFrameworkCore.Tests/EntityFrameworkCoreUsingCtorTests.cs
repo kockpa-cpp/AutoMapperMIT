@@ -1,6 +1,7 @@
 ﻿using System;
 using AutoMapper.EquivalencyExpression;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace AutoMapper.Collection.EntityFrameworkCore.Tests
 {
@@ -13,7 +14,7 @@ namespace AutoMapper.Collection.EntityFrameworkCore.Tests
                 x.AddCollectionMappers();
                 x.CreateMap<ThingDto, Thing>().ReverseMap();
                 x.UseEntityFrameworkCoreModel<DB>();
-            }));
+            }, new NullLoggerFactory()));
 
             db = new DB();
         }
