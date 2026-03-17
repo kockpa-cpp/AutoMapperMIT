@@ -26,10 +26,10 @@ This repository is a monorepo combining the latest MIT-licensed versions (as of 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.txt).
+These projects are licensed under the [MIT License](LICENSE.txt).
 
-Copyright &copy; 2010 Jimmy Bogard
-Copyright &copy; 2015 Tyler Carlson
-Copyright &copy; 2018 AutoMapper
+- Copyright &copy; 2010 Jimmy Bogard
+- Copyright &copy; 2015 Tyler Carlson
+- Copyright &copy; 2018 AutoMapper
 
 The git histories from all original repositories have been preserved in this monorepo for license traceability.
