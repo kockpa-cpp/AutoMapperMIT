@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections;
+using System.Linq;
+using Shouldly;
+
+namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
+{
+    public static class AssertionExtensions
+    {
+        public static void ShouldContain(this IEnumerable items, object item) 
+            => ShouldBeEnumerableTestExtensions.ShouldContain(items.Cast<object>(), item);
+
+        public static void ShouldBeEmpty(this IEnumerable items) 
+            => ShouldBeEnumerableTestExtensions.ShouldBeEmpty(items.Cast<object>());
+
+        public static void ShouldBeThrownBy(this Type exceptionType, Action action) 
+            => action.ShouldThrow(exceptionType);
+
+        public static void ShouldThrowException<T>(this Action action, Action<T> customAssertion) where T : Exception
+        {
+            bool throws = false;
+            try
+            {
+                action();
+            }
+            catch (T e)
+            {
+                throws = true;
+                customAssertion(e);
+            }
+            throws.ShouldBeTrue();
+        }
+
+#pragma warning disable IDE0060 // Remove unused parameter
+        public static void ShouldNotBeThrownBy(this Type exceptionType, Action action)
+#pragma warning restore IDE0060 // Remove unused parameter
+            => action.ShouldNotThrow();
+    }
+}
