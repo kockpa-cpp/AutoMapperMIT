@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.Extensions.Logging.Abstractions;
 
 namespace AutoMapper.Collection
 {
@@ -7,7 +6,7 @@ namespace AutoMapper.Collection
     {
         protected IMapper CreateMapper(Action<IMapperConfigurationExpression> cfg)
         {
-            var map = new MapperConfiguration(cfg, new NullLoggerFactory());
+            var map = new MapperConfiguration(cfg);
             map.CompileMappings();
 
             var mapper = map.CreateMapper();

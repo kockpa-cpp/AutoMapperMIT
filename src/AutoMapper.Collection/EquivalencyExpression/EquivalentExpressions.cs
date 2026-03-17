@@ -26,7 +26,7 @@ namespace AutoMapper.EquivalencyExpression
             var mappers = cfg.Internal().Mappers;
             var targetMapper = mappers.FirstOrDefault(om => om is TObjectMapper);
             var index = targetMapper == null ? 0 : mappers.IndexOf(targetMapper);
-            foreach (var mapper in adds.Reverse())
+            foreach (var mapper in ((IEnumerable<IObjectMapper>)adds).Reverse())
             {
                 mappers.Insert(index, mapper);
             }

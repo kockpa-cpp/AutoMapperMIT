@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging.Abstractions;
 
 namespace AutoMapper.Collection
 {
@@ -15,7 +14,7 @@ namespace AutoMapper.Collection
                 new MapperConfiguration(cfg =>
                 {
                     cfg.AddCollectionMappers();
-                }, new NullLoggerFactory());
+                });
             };
             var tasks = new List<Task>();
             for (var i = 0; i < 5; i++)

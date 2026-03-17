@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper.EquivalencyExpression;
-using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
 namespace AutoMapper.Collection
@@ -24,7 +23,7 @@ namespace AutoMapper.Collection
 
                 c.CreateMap<int, PersonNationality>()
                     .EqualityComparison((src, dest) => dest.NationalityCountryId == src);
-            }, new NullLoggerFactory()));
+            }));
 
             var persons = new[]
             {
