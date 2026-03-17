@@ -7,17 +7,9 @@
   </Configurations>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
-    <File Path=".github/workflows/ci.yml" />
-    <File Path=".github/workflows/release.yml" />
-    <File Path="Build.ps1" />
-    <File Path="CONTRIBUTING.md" />
     <File Path="Directory.Build.props" />
     <File Path="icon.png" />
-    <File Path="ISSUE_TEMPLATE.md" />
-    <File Path="nuget.config" />
-    <File Path="Push.ps1" />
     <File Path="README.md" />
-    <File Path="Setup.ps1" />
   </Folder>
   <Project Path="src/AutoMapper.Collection.EntityFramework.Tests/AutoMapper.Collection.EntityFramework.Tests.csproj" />
   <Project Path="src/AutoMapper.Collection.EntityFramework/AutoMapper.Collection.EntityFramework.csproj" />
