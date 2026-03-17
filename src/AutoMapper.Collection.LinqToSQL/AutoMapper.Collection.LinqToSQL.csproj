@@ -5,7 +5,8 @@
     <Authors>Tyler Carlson</Authors>
     <TargetFramework>net461</TargetFramework>
     <AssemblyName>AutoMapper.Collection.LinqToSQL</AssemblyName>
-    <PackageId>AutoMapper.Collection.LinqToSQL</PackageId>
+    <RootNamespace>AutoMapper.Collection.LinqToSQL</RootNamespace>
+    <PackageId>AutoMapperMIT.Collection.LinqToSQL</PackageId>
     <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/AutoMapper/Automapper.Collection</PackageProjectUrl>
     <AssemblyOriginatorKeyFile>../Key.snk</AssemblyOriginatorKeyFile>

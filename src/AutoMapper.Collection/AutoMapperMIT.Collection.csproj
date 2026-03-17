@@ -5,7 +5,8 @@
     <Authors>Tyler Carlson</Authors>
     <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <AssemblyName>AutoMapper.Collection</AssemblyName>
-    <PackageId>AutoMapper.Collection</PackageId>
+    <RootNamespace>AutoMapper.Collection</RootNamespace>
+    <PackageId>AutoMapperMIT.Collection</PackageId>
     <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/AutoMapper/Automapper.Collection</PackageProjectUrl>
     <AssemblyOriginatorKeyFile>../Key.snk</AssemblyOriginatorKeyFile>
@@ -24,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoMapper\AutoMapper.csproj" />
+    <ProjectReference Include="..\AutoMapper\AutoMapperMIT.csproj" />
   </ItemGroup>
 
 </Project>

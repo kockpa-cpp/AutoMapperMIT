@@ -8,7 +8,8 @@
     <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>AutoMapper.Extensions.ExpressionMapping</PackageId>
+    <RootNamespace>AutoMapper.Extensions.ExpressionMapping</RootNamespace>
+    <PackageId>AutoMapperMIT.Extensions.ExpressionMapping</PackageId>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageReleaseNotes>Marking obsolete methods and classes.</PackageReleaseNotes>
@@ -31,7 +32,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoMapper\AutoMapper.csproj" />
+    <ProjectReference Include="..\AutoMapper\AutoMapperMIT.csproj" />
   </ItemGroup>
 
   <ItemGroup>

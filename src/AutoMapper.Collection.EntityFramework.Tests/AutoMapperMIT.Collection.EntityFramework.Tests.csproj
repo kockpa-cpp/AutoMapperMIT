@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoMapper.Collection.EntityFramework\AutoMapper.Collection.EntityFramework.csproj" />
+    <ProjectReference Include="..\AutoMapper.Collection.EntityFramework\AutoMapperMIT.Collection.EntityFramework.csproj" />
   </ItemGroup>
 
   <ItemGroup>

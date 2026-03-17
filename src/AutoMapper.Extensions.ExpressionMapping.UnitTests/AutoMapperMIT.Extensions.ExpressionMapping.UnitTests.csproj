@@ -8,6 +8,7 @@
     <TargetFrameworks>net10.0</TargetFrameworks>
 		<OutputType>Exe</OutputType>
 		<IsPackable>false</IsPackable>
+		<AssemblyName>AutoMapper.Extensions.ExpressionMapping.UnitTests</AssemblyName>
 		<AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
 		<SignAssembly>true</SignAssembly>
   </PropertyGroup>
@@ -24,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoMapper.Extensions.ExpressionMapping\AutoMapper.Extensions.ExpressionMapping.csproj" />
+    <ProjectReference Include="..\AutoMapper.Extensions.ExpressionMapping\AutoMapperMIT.Extensions.ExpressionMapping.csproj" />
   </ItemGroup>
 
 </Project>

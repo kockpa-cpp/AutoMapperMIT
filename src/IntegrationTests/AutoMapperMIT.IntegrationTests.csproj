@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <Compile Include="..\UnitTests\AutoMapperSpecBase.cs" Link="AutoMapperSpecBase.cs" />
-    <ProjectReference Include="..\AutoMapper\AutoMapper.csproj" />
+    <ProjectReference Include="..\AutoMapper\AutoMapperMIT.csproj" />
     <PackageReference Include="xunit" Version="2.9.2" />
     <PackageReference Include="Shouldly" Version="4.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />

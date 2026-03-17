@@ -5,7 +5,8 @@
     <Authors>Tyler Carlson</Authors>
     <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <AssemblyName>AutoMapper.Collection.EntityFrameworkCore</AssemblyName>
-    <PackageId>AutoMapper.Collection.EntityFrameworkCore</PackageId>
+    <RootNamespace>AutoMapper.Collection.EntityFrameworkCore</RootNamespace>
+    <PackageId>AutoMapperMIT.Collection.EntityFrameworkCore</PackageId>
     <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/AutoMapper/Automapper.Collection.EFCore</PackageProjectUrl>
     <AssemblyOriginatorKeyFile>../Key.snk</AssemblyOriginatorKeyFile>
@@ -24,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoMapper.Collection\AutoMapper.Collection.csproj" />
-    <ProjectReference Include="..\AutoMapper.Extensions.ExpressionMapping\AutoMapper.Extensions.ExpressionMapping.csproj" />
+    <ProjectReference Include="..\AutoMapper.Collection\AutoMapperMIT.Collection.csproj" />
+    <ProjectReference Include="..\AutoMapper.Extensions.ExpressionMapping\AutoMapperMIT.Extensions.ExpressionMapping.csproj" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
   </ItemGroup>
 

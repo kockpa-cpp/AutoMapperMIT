@@ -11,22 +11,22 @@
     <File Path="icon.png" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="src/AutoMapper.Collection.EntityFramework.Tests/AutoMapper.Collection.EntityFramework.Tests.csproj" />
-  <Project Path="src/AutoMapper.Collection.EntityFramework/AutoMapper.Collection.EntityFramework.csproj" />
-  <Project Path="src/AutoMapper.Collection.EntityFrameworkCore.Tests/AutoMapper.Collection.EntityFrameworkCore.Tests.csproj" />
-  <Project Path="src/AutoMapper.Collection.EntityFrameworkCore/AutoMapper.Collection.EntityFrameworkCore.csproj" />
-  <Project Path="src/AutoMapper.Collection.Tests/AutoMapper.Collection.Tests.csproj" />
-  <Project Path="src/AutoMapper.Collection/AutoMapper.Collection.csproj" />
-  <Project Path="src/AutoMapper.DI.Tests/AutoMapper.DI.Tests.csproj" />
-  <Project Path="src/AutoMapper.Extensions.ExpressionMapping.UnitTests/AutoMapper.Extensions.ExpressionMapping.UnitTests.csproj" />
-  <Project Path="src/AutoMapper.Extensions.ExpressionMapping/AutoMapper.Extensions.ExpressionMapping.csproj" />
-  <Project Path="src/AutoMapper/AutoMapper.csproj" />
+  <Project Path="src/AutoMapper.Collection.EntityFramework.Tests/AutoMapperMIT.Collection.EntityFramework.Tests.csproj" />
+  <Project Path="src/AutoMapper.Collection.EntityFramework/AutoMapperMIT.Collection.EntityFramework.csproj" />
+  <Project Path="src/AutoMapper.Collection.EntityFrameworkCore.Tests/AutoMapperMIT.Collection.EntityFrameworkCore.Tests.csproj" />
+  <Project Path="src/AutoMapper.Collection.EntityFrameworkCore/AutoMapperMIT.Collection.EntityFrameworkCore.csproj" />
+  <Project Path="src/AutoMapper.Collection.Tests/AutoMapperMIT.Collection.Tests.csproj" />
+  <Project Path="src/AutoMapper.Collection/AutoMapperMIT.Collection.csproj" />
+  <Project Path="src/AutoMapper.DI.Tests/AutoMapperMIT.DI.Tests.csproj" />
+  <Project Path="src/AutoMapper.Extensions.ExpressionMapping.UnitTests/AutoMapperMIT.Extensions.ExpressionMapping.UnitTests.csproj" />
+  <Project Path="src/AutoMapper.Extensions.ExpressionMapping/AutoMapperMIT.Extensions.ExpressionMapping.csproj" />
+  <Project Path="src/AutoMapper/AutoMapperMIT.csproj" />
   <Project Path="src/Benchmark/Benchmark.csproj">
     <Build Solution="*|ARM" Project="false" />
     <Build Solution="*|x64" Project="false" />
     <Build Solution="*|x86" Project="false" />
   </Project>
-  <Project Path="src/IntegrationTests/AutoMapper.IntegrationTests.csproj" />
+  <Project Path="src/IntegrationTests/AutoMapperMIT.IntegrationTests.csproj" />
   <Project Path="src/TestApp/TestApp.csproj" />
-  <Project Path="src/UnitTests/AutoMapper.UnitTests.csproj" />
+  <Project Path="src/UnitTests/AutoMapperMIT.UnitTests.csproj" />
 </Solution>
