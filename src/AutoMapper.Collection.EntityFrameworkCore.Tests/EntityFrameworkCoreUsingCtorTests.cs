@@ -14,7 +14,7 @@ namespace AutoMapper.Collection.EntityFrameworkCore.Tests
                 x.AddCollectionMappers();
                 x.CreateMap<ThingDto, Thing>().ReverseMap();
                 x.UseEntityFrameworkCoreModel<DB>();
-            }, new NullLoggerFactory()));
+            }));
 
             db = new DB();
         }

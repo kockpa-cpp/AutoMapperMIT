@@ -27,7 +27,7 @@ namespace AutoMapper.Collection.EntityFrameworkCore.Tests
                 x.AddCollectionMappers();
                 x.UseEntityFrameworkCoreModel<DB>(_serviceProvider);
                 x.CreateMap<ThingDto, Thing>().ReverseMap();
-            }, new NullLoggerFactory()));
+            }));
 
             _serviceScope = _serviceProvider.GetRequiredService<IServiceScopeFactory>().CreateScope();
             db = _serviceScope.ServiceProvider.GetRequiredService<DB>();
