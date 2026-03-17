@@ -50,7 +50,11 @@ public sealed class ProjectionBuilder : IProjectionBuilder
         return (typeMap, PolymorphicMaps(typeMap));
     }
     TypeMap[] PolymorphicMaps(TypeMap typeMap) => _configuration.GetIncludedTypeMaps(typeMap.IncludedDerivedTypes
+#if NET6_0_OR_GREATER
         .Where(tp => tp.SourceType != typeMap.SourceType && !tp.DestinationType.IsAbstract).DistinctBy(tp => tp.SourceType).ToArray());
+#else
+        .Where(tp => tp.SourceType != typeMap.SourceType && !tp.DestinationType.IsAbstract).GroupBy(tp => tp.SourceType).Select(g => g.First()).ToArray());
+#endif
     public QueryExpressions CreateProjection(in ProjectionRequest request, LetPropertyMaps letPropertyMaps)
     {
         var (typeMap, polymorphicMaps) = PolymorphicMaps(request);
@@ -237,6 +241,9 @@ public sealed class ProjectionBuilder : IProjectionBuilder
         public override LetPropertyMaps New() => new FirstPassLetPropertyMaps(Configuration, GetCurrentPath(), BuiltProjections);
         public override QueryExpressions GetSubQueryExpression(ProjectionBuilder builder, Expression projection, TypeMap typeMap, in ProjectionRequest request, ParameterExpression instanceParameter)
         {
+#if NETSTANDARD2_0
+            throw new NotSupportedException("Let property maps with sub-query expressions are not supported in netstandard2.0.");
+#else
             var letMapInfos = _savedPaths.Select(path =>
                 (path.LetExpression,
                 MapFromSource : path.GetSourceExpression(instanceParameter),
@@ -264,6 +271,7 @@ public sealed class ProjectionBuilder : IProjectionBuilder
                 }
                 projection = new ReplaceMemberAccessesVisitor(instanceParameter, secondParameter).Visit(projection);
             }
+#endif
         }
         readonly record struct SubQueryPath(MemberProjection[] Members, LambdaExpression LetExpression, Expression Marker)
         {

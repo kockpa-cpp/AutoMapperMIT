@@ -35,5 +35,7 @@ namespace AutoMapper.Mappers
             var toSourceExpression = this.GetEquivalentExpression(sourceExpression.Type, destExpressArgType, configurationProvider);
             return Call(null, MapMethodInfo.MakeGenericMethod(sourceExpression.Type, destExpressArgType), sourceExpression, Constant(toSourceExpression));
         }
+
+        public TypePair? GetAssociatedTypes(TypePair initialTypes) => null;
     }
 }
