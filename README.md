@@ -1,76 +1,35 @@
-![AutoMapper](https://s3.amazonaws.com/automapper/logo.png)
+# AutoMapperMIT Monorepo
 
-[![CI](https://github.com/automapper/automapper/workflows/CI/badge.svg)](https://github.com/AutoMapper/AutoMapper/actions?query=workflow%3ACI)
-[![NuGet](http://img.shields.io/nuget/vpre/AutoMapper.svg?label=NuGet)](https://www.nuget.org/packages/AutoMapper/)
-[![MyGet (dev)](https://img.shields.io/myget/automapperdev/vpre/AutoMapper.svg?label=MyGet)](https://myget.org/feed/automapperdev/package/nuget/AutoMapper)
-[![Documentation Status](https://readthedocs.org/projects/automapper/badge/?version=stable)](https://docs.automapper.org/en/stable/?badge=stable)
+This repository is a monorepo combining the latest MIT-licensed versions (as of March 17, 2026) of the following AutoMapper projects into a single codebase:
 
+| NuGet Package | Original Repository |
+|---|---|
+| [AutoMapperMIT](https://www.nuget.org/packages/AutoMapperMIT) | [AutoMapper/AutoMapper.Archive](https://github.com/AutoMapper/AutoMapper.Archive) |
+| [AutoMapperMIT.Collection](https://www.nuget.org/packages/AutoMapperMIT.Collection) | [AutoMapper/AutoMapper.Collection](https://github.com/AutoMapper/AutoMapper.Collection) |
+| [AutoMapperMIT.Collection.EntityFramework](https://www.nuget.org/packages/AutoMapperMIT.Collection.EntityFramework) | [AutoMapper/AutoMapper.Collection](https://github.com/AutoMapper/AutoMapper.Collection) |
+| [AutoMapperMIT.Collection.EntityFrameworkCore](https://www.nuget.org/packages/AutoMapperMIT.Collection.EntityFrameworkCore) | [AutoMapper/AutoMapper.Collection.EFCore](https://github.com/AutoMapper/AutoMapper.Collection.EFCore) |
+| [AutoMapperMIT.Collection.LinqToSQL](https://www.nuget.org/packages/AutoMapperMIT.Collection.LinqToSQL) | [AutoMapper/AutoMapper.Collection](https://github.com/AutoMapper/AutoMapper.Collection) |
+| [AutoMapperMIT.Extensions.ExpressionMapping](https://www.nuget.org/packages/AutoMapperMIT.Extensions.ExpressionMapping) | [AutoMapper/AutoMapper.Extensions.ExpressionMapping](https://github.com/AutoMapper/AutoMapper.Extensions.ExpressionMapping) |
 
-### What is AutoMapper?
+> **Note:** All packages in this repo are published under the **`AutoMapperMIT`** prefix to distinguish them from the original `AutoMapper` NuGet packages.
 
-AutoMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another. This type of code is rather dreary and boring to write, so why not invent a tool to do it for us?
+---
 
-This is the main repository for AutoMapper, but there's more:
+## Documentation
 
-* [Collection Extensions](https://github.com/AutoMapper/AutoMapper.Collection)
-* [Expression Mapping](https://github.com/AutoMapper/AutoMapper.Extensions.ExpressionMapping)
-* [EF6 Extensions](https://github.com/AutoMapper/AutoMapper.EF6)
-* [IDataReader/Record Extensions](https://github.com/AutoMapper/AutoMapper.Data)
-* [Enum Extensions](https://github.com/AutoMapper/AutoMapper.Extensions.EnumMapping)
+- **AutoMapperMIT** — [README](README.AutoMapper.md) · [Documentation Index](docs/source/index.md)
+- **AutoMapperMIT.Collection** and **AutoMapperMIT.Collection.EntityFramework** — [README](README.Collection.md)
+- **AutoMapperMIT.Collection.EntityFrameworkCore** — [README](README.EFCore.md)
+- **AutoMapperMIT.Extensions.ExpressionMapping** — [README](README.ExpressionMapping.md)
 
-### How do I get started?
+---
 
-First, configure AutoMapper to know what types you want to map, in the startup of your application:
+## License
 
-```csharp
-var configuration = new MapperConfiguration(cfg => 
-{
-    cfg.CreateMap<Foo, FooDto>();
-    cfg.CreateMap<Bar, BarDto>();
-});
-// only during development, validate your mappings; remove it before release
-#if DEBUG
-configuration.AssertConfigurationIsValid();
-#endif
-// use DI (http://docs.automapper.org/en/latest/Dependency-injection.html) or create the mapper yourself
-var mapper = configuration.CreateMapper();
-```
-Then in your application code, execute the mappings:
+This project is licensed under the [MIT License](LICENSE.txt).
 
-```csharp
-var fooDto = mapper.Map<FooDto>(foo);
-var barDto = mapper.Map<BarDto>(bar);
-```
+Copyright &copy; 2010 Jimmy Bogard
+Copyright &copy; 2015 Tyler Carlson
+Copyright &copy; 2018 AutoMapper
 
-Check out the [getting started guide](https://automapper.readthedocs.io/en/latest/Getting-started.html). When you're done there, the [wiki](https://automapper.readthedocs.io/en/latest/) goes in to the nitty-gritty details. If you have questions, you can post them to [Stack Overflow](https://stackoverflow.com/questions/tagged/automapper) or in our [Gitter](https://gitter.im/AutoMapper/AutoMapper).
-
-### Where can I get it?
-
-First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget). Then, install [AutoMapper](https://www.nuget.org/packages/AutoMapper/) from the package manager console:
-
-```
-PM> Install-Package AutoMapper
-```
-Or from the .NET CLI as:
-```
-dotnet add package AutoMapper
-```
-
-### Do you have an issue?
-
-First check if it's already fixed by trying the [MyGet build](https://automapper.readthedocs.io/en/latest/The-MyGet-build.html).
-
-You might want to know exactly what [your mapping does](https://automapper.readthedocs.io/en/latest/Understanding-your-mapping.html) at runtime.
-
-If you're still running into problems, file an issue above.
-
-### License, etc.
-
-This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community.
-For more information see the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct).
-
-AutoMapper is Copyright &copy; 2009 [Jimmy Bogard](https://jimmybogard.com) and other contributors under the [MIT license](https://github.com/AutoMapper/AutoMapper?tab=MIT-1-ov-file#MIT-1-ov-file).
-
-### .NET Foundation
-
-This project is supported by the [.NET Foundation](https://dotnetfoundation.org).
+The git histories from all original repositories have been preserved in this monorepo for license traceability.
