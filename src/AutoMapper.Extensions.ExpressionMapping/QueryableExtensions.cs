@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using AutoMapper.Extensions.ExpressionMapping.Impl;
+﻿using AutoMapper.Extensions.ExpressionMapping.Impl;
 
 namespace AutoMapper.Extensions.ExpressionMapping
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Reflection.Emit;
+﻿using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("AutoMapper.Extensions.ExpressionMapping.UnitTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100472eaa88b0b938afd1af240d58859cfea02891406705969564edf924cf3eb9920ac169f58fd63cf1b3eae3ad0ce4344cf757dff3b9f931a7afc70084ae161896bd7eaf634b88eb50200444440113e5510d22a80ac26d8057937ac23dcb8dbd4d86ea738e604f9628bc9939717ef93b9ef6250266ecff292a3a6cf5265a5ef3e6")]

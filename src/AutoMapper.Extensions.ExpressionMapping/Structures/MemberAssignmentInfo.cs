@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Structures
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Structures
 {
     internal class MemberAssignmentInfo(PropertyMap propertyMap, MemberAssignment memberAssignment)
     {

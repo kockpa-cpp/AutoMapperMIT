@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace AutoMapper.Extensions.ExpressionMapping
+﻿namespace AutoMapper.Extensions.ExpressionMapping
 {
     internal class PrependParentNameVisitor(ParameterExpression currentParameter, string parentFullName, Expression newParameter) : ExpressionVisitor
     {

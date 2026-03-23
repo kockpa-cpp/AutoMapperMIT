@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using AutoMapper.EquivalencyExpression;
-using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper.EquivalencyExpression;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace AutoMapper.EntityFrameworkCore

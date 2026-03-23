@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace AutoMapper.Extensions.ExpressionMapping
+﻿namespace AutoMapper.Extensions.ExpressionMapping
 {
     internal class ReplaceExpressionVisitor(Expression oldExpression, Expression newExpression) : ExpressionVisitor
     {

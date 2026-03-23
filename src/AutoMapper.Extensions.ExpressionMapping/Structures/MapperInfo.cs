@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq.Expressions;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Structures
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Structures
 {
     public class MapperInfo(ParameterExpression newParameter, Type sourceType, Type destType)
     {

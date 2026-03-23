@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using static System.Linq.Expressions.Expression;
+﻿using static System.Linq.Expressions.Expression;
 
 namespace AutoMapper.Extensions.ExpressionMapping
 {

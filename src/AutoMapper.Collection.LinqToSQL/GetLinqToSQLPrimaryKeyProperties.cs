@@ -1,8 +1,5 @@
-using System.Collections.Generic;
-using System.Data.Linq.Mapping;
-using System.Linq;
-using System.Reflection;
 using AutoMapper.EquivalencyExpression;
+using System.Data.Linq.Mapping;
 
 namespace AutoMapper.Collection.LinqToSQL
 {

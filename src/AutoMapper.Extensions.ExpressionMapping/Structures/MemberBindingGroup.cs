@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Structures
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Structures
 {
     /// <summary>
     /// Defines the type to be initialized and a list of source bindings.

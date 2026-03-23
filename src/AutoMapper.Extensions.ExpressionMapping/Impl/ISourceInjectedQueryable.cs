@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Impl
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Impl
 {
     public interface ISourceInjectedQueryable<out T> : IQueryable<T>
     {

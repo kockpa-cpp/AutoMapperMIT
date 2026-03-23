@@ -1,7 +1,7 @@
 ﻿namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
 {
-    using System.Linq;
     using Shouldly;
+    using System.Linq;
     using Xunit;
 
     public class ExplicitExpansionAsDataSource : AutoMapperSpecBase

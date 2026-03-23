@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-using AutoMapper.EquivalencyExpression;
+﻿using AutoMapper.EquivalencyExpression;
 using AutoMapper.Features;
-using AutoMapper.Internal;
+using System.Collections.Concurrent;
 
 namespace AutoMapper.Collection.Runtime
 {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Reflection;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Structures
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Structures
 {
     internal class DeclaringMemberKey(MemberInfo declaringMemberInfo, string declaringMemberFullName) : IEquatable<DeclaringMemberKey>
     {

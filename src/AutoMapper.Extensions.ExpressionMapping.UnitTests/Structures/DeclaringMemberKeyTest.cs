@@ -1,5 +1,3 @@
-using System;
-using System.Reflection;
 using AutoMapper.Extensions.ExpressionMapping.Structures;
 using Xunit;
 

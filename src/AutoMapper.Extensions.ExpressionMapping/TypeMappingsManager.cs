@@ -1,11 +1,4 @@
-﻿using AutoMapper.Internal;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-
-namespace AutoMapper.Extensions.ExpressionMapping
+﻿namespace AutoMapper.Extensions.ExpressionMapping
 {
     public class TypeMappingsManager : ITypeMappingsManager
     {

@@ -1,5 +1,5 @@
-using System.Dynamic;
 using AutoMapper.Internal.Mappers;
+using System.Dynamic;
 namespace AutoMapper.UnitTests.ArraysAndLists;
 
 public class When_mapping_to_Existing_IEnumerable : AutoMapperSpecBase

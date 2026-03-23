@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
+﻿namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
     public class Source
     {

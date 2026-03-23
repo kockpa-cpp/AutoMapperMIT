@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq.Expressions;
-using AutoMapper.Features;
-using AutoMapper.Collection.Runtime;
+﻿using AutoMapper.Collection.Runtime;
 using AutoMapper.EquivalencyExpression;
+using AutoMapper.Features;
 
 namespace AutoMapper.Collection.Configuration
 {

@@ -1,11 +1,5 @@
-﻿using System;
+﻿using Shouldly;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using AutoMapper.Internal;
-using AutoMapper.QueryableExtensions;
-using Shouldly;
 using Xunit;
 
 namespace AutoMapper.Extensions.ExpressionMapping.UnitTests

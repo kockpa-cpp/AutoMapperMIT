@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper.EntityFrameworkCore;
+﻿using AutoMapper.EntityFrameworkCore;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Xunit;

@@ -2,10 +2,10 @@
 
 namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
-    using System;
-    using System.Reflection;
     using AutoMapper.Internal;
     using Shouldly;
+    using System;
+    using System.Reflection;
     using Xunit;
 
     public class AssemblyResolutionTests

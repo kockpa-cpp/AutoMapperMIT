@@ -1,8 +1,4 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace AutoMapper.EntityFrameworkCore
+﻿namespace AutoMapper.EntityFrameworkCore
 {
     public interface IPersistence<TTo>
     {

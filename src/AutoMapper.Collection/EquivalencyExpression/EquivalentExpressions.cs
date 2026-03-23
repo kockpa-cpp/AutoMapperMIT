@@ -1,9 +1,5 @@
-using System;
-using System.Linq;
-using System.Linq.Expressions;
 using AutoMapper.Collection.Configuration;
 using AutoMapper.Collection.Runtime;
-using AutoMapper.Internal;
 using AutoMapper.Internal.Mappers;
 using AutoMapper.Mappers;
 

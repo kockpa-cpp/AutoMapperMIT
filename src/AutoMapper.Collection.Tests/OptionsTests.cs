@@ -1,7 +1,5 @@
 ﻿using AutoMapper.EquivalencyExpression;
-using AutoMapper.Mappers;
 using FluentAssertions;
-using System.Collections.Generic;
 using Xunit;
 
 namespace AutoMapper.Collection

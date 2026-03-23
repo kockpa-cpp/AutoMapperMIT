@@ -1,11 +1,5 @@
-using AutoMapper.Internal;
 using AutoMapper.QueryableExtensions.Impl;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
 using System.Runtime.CompilerServices;
 
 namespace AutoMapper.Extensions.ExpressionMapping.Impl

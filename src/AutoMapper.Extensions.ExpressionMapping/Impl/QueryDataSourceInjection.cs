@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-using AutoMapper.QueryableExtensions;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Impl
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Impl
 {
-    using MemberPaths = IEnumerable<IEnumerable<MemberInfo>>;
     using IObjectDictionary = IDictionary<string, object>;
+    using MemberPaths = IEnumerable<IEnumerable<MemberInfo>>;
 
     public interface IQueryDataSourceInjection<TSource>
     {

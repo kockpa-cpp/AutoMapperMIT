@@ -1,5 +1,3 @@
-* text=auto
-
 *.doc  diff=astextplain
 *.DOC	diff=astextplain
 *.docx	diff=astextplain
@@ -14,6 +12,8 @@
 *.jpg  	binary
 *.png 	binary
 *.gif 	binary
+
+core.eol crlf
 
 *.cs diff=csharp
 

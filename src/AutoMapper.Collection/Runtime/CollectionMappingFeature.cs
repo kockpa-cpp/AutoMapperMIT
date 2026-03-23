@@ -1,6 +1,5 @@
 ﻿using AutoMapper.EquivalencyExpression;
 using AutoMapper.Features;
-using AutoMapper.Internal;
 
 namespace AutoMapper.Collection.Runtime
 {

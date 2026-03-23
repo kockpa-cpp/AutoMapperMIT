@@ -1,5 +1,5 @@
-using System.Runtime.CompilerServices;
 using AutoMapper.Configuration.Conventions;
+using System.Runtime.CompilerServices;
 namespace AutoMapper;
 
 public interface IProfileConfiguration

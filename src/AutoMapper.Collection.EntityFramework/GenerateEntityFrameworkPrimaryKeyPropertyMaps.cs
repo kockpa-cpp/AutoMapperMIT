@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AutoMapper.EquivalencyExpression;
 using System.Data.Entity.Core.Metadata.Edm;
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
-using System.Linq;
-using System.Reflection;
-using AutoMapper.EquivalencyExpression;
 
 namespace AutoMapper.EntityFramework
 {

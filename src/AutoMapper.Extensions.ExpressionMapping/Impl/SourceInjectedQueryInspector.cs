@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq.Expressions;
-
-namespace AutoMapper.Extensions.ExpressionMapping.Impl
+﻿namespace AutoMapper.Extensions.ExpressionMapping.Impl
 {
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     public class SourceInjectedQueryInspector

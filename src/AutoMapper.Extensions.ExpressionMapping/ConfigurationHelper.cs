@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AutoMapper.Extensions.ExpressionMapping
+﻿namespace AutoMapper.Extensions.ExpressionMapping
 {
     public static class ConfigurationHelper
     {

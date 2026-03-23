@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using AutoMapper.Extensions.ExpressionMapping.Impl;
+﻿using AutoMapper.Extensions.ExpressionMapping.Impl;
 using Microsoft.EntityFrameworkCore;
+using System.Collections;
 
 namespace AutoMapper.EntityFrameworkCore
 {

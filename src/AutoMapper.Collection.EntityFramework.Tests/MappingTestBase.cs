@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AutoMapper.Collection
+﻿namespace AutoMapper.Collection
 {
     public abstract class MappingTestBase
     {

@@ -1,6 +1,4 @@
-﻿using AutoMapper.Internal;
-
-namespace AutoMapper.Extensions.ExpressionMapping
+﻿namespace AutoMapper.Extensions.ExpressionMapping
 {
     public static class ConfigurationExtensions
     {

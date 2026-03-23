@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using AutoMapper.EntityFramework;
+﻿using AutoMapper.EntityFramework;
 using AutoMapper.EquivalencyExpression;
 using FluentAssertions;
+using System.Data.Entity;
 using Xunit;
 
 namespace AutoMapper.Collection.EntityFramework.Tests

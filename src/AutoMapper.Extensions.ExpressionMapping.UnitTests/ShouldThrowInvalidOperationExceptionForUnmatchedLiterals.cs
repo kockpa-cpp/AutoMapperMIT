@@ -1,6 +1,4 @@
 ﻿using Microsoft.OData.Edm;
-using System;
-using System.Linq.Expressions;
 using Xunit;
 
 namespace AutoMapper.Extensions.ExpressionMapping.UnitTests

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
+﻿namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
 {
     public class SetPropertyCalls<TSource>
     {

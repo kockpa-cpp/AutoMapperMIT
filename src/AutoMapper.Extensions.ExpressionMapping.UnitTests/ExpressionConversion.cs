@@ -1,8 +1,4 @@
-﻿
-using System;
-using System.Linq;
-using System.Linq.Expressions;
-using Shouldly;
+﻿using Shouldly;
 using Xunit;
 
 namespace AutoMapper.Extensions.ExpressionMapping.UnitTests

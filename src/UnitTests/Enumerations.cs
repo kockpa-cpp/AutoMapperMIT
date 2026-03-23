@@ -1,5 +1,5 @@
-using System.Runtime.Serialization;
 using AutoMapper.UnitTests;
+using System.Runtime.Serialization;
 namespace AutoMapper.Tests;
 
 public class CreateProjectionEnum : AutoMapperSpecBase

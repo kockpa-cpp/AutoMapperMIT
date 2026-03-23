@@ -1,5 +1,5 @@
-using System.Runtime.CompilerServices;
 using Microsoft.CSharp.RuntimeBinder;
+using System.Runtime.CompilerServices;
 using Binder = Microsoft.CSharp.RuntimeBinder.Binder;
 namespace AutoMapper.Internal.Mappers;
 

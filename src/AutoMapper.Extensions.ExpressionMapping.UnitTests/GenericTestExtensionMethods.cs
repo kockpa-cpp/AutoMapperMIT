@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
+﻿namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
 {
     public static class GenericTestExtensionMethods
     {

@@ -1,5 +1,3 @@
-using System;
-
 namespace AutoMapper.Collection.LinqToSQL
 {
     public interface IPersistence

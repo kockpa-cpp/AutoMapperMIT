@@ -1,7 +1,5 @@
-﻿using System;
-using AutoMapper.EquivalencyExpression;
+﻿using AutoMapper.EquivalencyExpression;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging.Abstractions;
 
 namespace AutoMapper.Collection.EntityFrameworkCore.Tests
 {

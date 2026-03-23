@@ -1,5 +1,4 @@
-﻿using System;
-using AutoMapper.EntityFrameworkCore;
+﻿using AutoMapper.EntityFrameworkCore;
 using AutoMapper.EquivalencyExpression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;

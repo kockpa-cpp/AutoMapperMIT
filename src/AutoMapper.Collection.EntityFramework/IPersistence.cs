@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AutoMapper.EntityFramework
+﻿namespace AutoMapper.EntityFramework
 {
     public interface IPersistence
     {

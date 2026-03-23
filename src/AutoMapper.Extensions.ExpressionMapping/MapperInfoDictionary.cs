@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using AutoMapper.Extensions.ExpressionMapping.Structures;
+﻿using AutoMapper.Extensions.ExpressionMapping.Structures;
 
 namespace AutoMapper.Extensions.ExpressionMapping
 {

@@ -1,11 +1,5 @@
-﻿using AutoMapper.Internal;
-using AutoMapper.Internal.Mappers;
-using System;
-using System.Collections.Generic;
+﻿using AutoMapper.Internal.Mappers;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
 using static System.Linq.Expressions.Expression;
 
 namespace AutoMapper.Extensions.ExpressionMapping

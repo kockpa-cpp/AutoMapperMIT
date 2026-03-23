@@ -1,7 +1,4 @@
-﻿
-using System;
-using System.Linq.Expressions;
-using Xunit;
+﻿using Xunit;
 
 namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
 {

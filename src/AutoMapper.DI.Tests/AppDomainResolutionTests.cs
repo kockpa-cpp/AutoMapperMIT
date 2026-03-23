@@ -2,9 +2,9 @@
 
 namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
-    using System;
     using AutoMapper.Internal;
     using Shouldly;
+    using System;
     using Xunit;
 
     public class AppDomainResolutionTests

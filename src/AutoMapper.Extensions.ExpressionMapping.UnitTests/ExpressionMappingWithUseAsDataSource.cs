@@ -1,7 +1,6 @@
 ﻿namespace AutoMapper.Extensions.ExpressionMapping.UnitTests
 {
     using AutoMapper;
-    using AutoMapper.QueryableExtensions;
     using Shouldly;
     using System;
     using System.Collections.Generic;

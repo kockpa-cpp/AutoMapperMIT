@@ -1,8 +1,4 @@
-﻿using AutoMapper.Internal;
-using System;
-using System.Linq;
-
-namespace AutoMapper.Extensions.ExpressionMapping
+﻿namespace AutoMapper.Extensions.ExpressionMapping
 {
     internal static class TypeMapHelper
     {

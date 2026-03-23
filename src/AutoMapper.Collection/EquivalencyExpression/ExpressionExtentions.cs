@@ -1,9 +1,5 @@
-﻿using System;
+﻿using AutoMapper.Collection;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using System.Reflection;
-using AutoMapper.Collection;
 
 namespace AutoMapper.EquivalencyExpression
 {

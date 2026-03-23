@@ -1,8 +1,8 @@
 ﻿namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
-    using System;
     using global::Microsoft.Extensions.DependencyInjection;
     using Shouldly;
+    using System;
     using Xunit;
 
     public class DependencyTests
